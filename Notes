@@ -33,7 +33,8 @@ Things Needed
             - could just use sub-queries or joins to create new DFs with required info
     - Understand sentiment Analysis
         - Read NLTK book
-        - determine the NLTK modules needed
+        - determine the NLTK modules 
+        - determine feasability of making my own model vs using someone else
     - API Call / Data Scraping
         - Genius API call
         - Need another DF that lists my top 100 songs so I can attach lyrics to those songs
@@ -49,14 +50,26 @@ Things Needed
             - project goal
             - any challenges I faced 
             - how to use the scripts together
-            - reasoning for usage of NLTK, Visualization Methods, and SQLite
+            - reasoning for usage of NLTK or differnet model, Visualization Methods, and SQLite
 
 Reasoning
-    - NLTK
+    - NLTK or other model
     - Visualization
     - SQLite
+        - Free
+        - Can locally host it
+        - Python Package SQLite3 works with it
+        - Perfect for the size of data I have
+
+Stretch Goal
+    - make own model using NLTK and then use for Sentiment Analysis
+    - Create visuals that move / experience is similar to Spotify Wrapped
+    - Make UI so people can upload their own data and do the same
 
 Risks
     - API calls
         - limits on Genius API calls 
             - mitigate by changing how many songs I get lyrics for
+    - NLTK
+        - never made a model before
+        - could take a lot of time / not be a good model cause of data used
