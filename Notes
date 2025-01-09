@@ -2,13 +2,16 @@ Things Needed
     - Download Data - Complete
     - Understand the Why behind the project
         - What did I like about 2024 spotify wrapped?
-            - I liked the opneing animation
-            - i loved the use of geometric animation
-            - i loved the black background with the bright colorful animation 
+            - I liked the opening animation
+            - i loved the black background with the bright colorful geometric animation 
+            - I liked a lot of the colors used
         - what didnt i like about 2024 spotify wrapped?
             - didnt feel personalized
             - was missing insights from 2023
             - felt a little too clean/mechanical
+            - the geomoetric patterns became repetive, made it hard to feel special
+            - it didnt report on my podcast listening even tho i listened to podcasts
+            - the music evolution description words were stupid
         - what info was included in 24 spotify wrapped?
             - minutes listened this year
             - day where i listened for the most minutes
@@ -25,13 +28,17 @@ Things Needed
             - top 5 artists
             - number of artists listened to 
         - what do i wish it reported on?
-            - top 5 generes (a sandwhich with most listened to genre taking up most space)
-            - sound town (matching me to a city based on my listening)
-            - me in 2024 (listening character specific to your tastes and habits)
+            - top 5 generes (a sandwich with most listened to genre taking up most space) [23 Wrapped]
+            - sound town (matching me to a city based on my listening) [23 Wrapped]
+            - me in 2024 (listening character specific to your tastes and habits) [23 Wrapped]
                 - Vampire, Alchemist, Time Traveler, Cyclops, Luminary, Mastermind, Roboticist,
-                  Shapeshifter, Collector, Hunter, Fanatic, Hypnotist
-            - for my top 5 artists, a graph that shows my peak listening months
+                  Shapeshifter, Collector, Hunter, Fanatic, Hypnotist [23 Wrapped]
+            - for my top 5 artists, a graph that shows my peak listening months [23 Wrapped]
         - how would i improve those thing if i could? 
+            - make the animations vary more frequently, not just use geometric patterns 
+            - include more personalized stats instead of just comparing me to other listeners
+            - make the music evolution more concrete by using genres instead of goobly goop words
+            - added the cool stuff from 2023 (listed above)
     - Re-read Data Structure from Spotify Wesbite
         - Write questions based on data structure
             - exp. do i know how many times i streamed a playlist?
