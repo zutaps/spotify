@@ -60,6 +60,25 @@ Things Needed
             - Frequency of new artist discovery
                 - how many new artists this year?
             - Comparison of sentiment scores across my top 50 songs
+            - top 5 generes (a sandwich with most listened to genre taking up most space)
+            - for my top 5 artists, a graph that shows my peak listening months [23 Wrapped]
+            - me in 2024 (listening character specific to your tastes and habits) [23 Wrapped]
+                - Vampire, Alchemist, Time Traveler, Cyclops, Luminary, Mastermind, Roboticist,
+                  Shapeshifter, Collector, Hunter, Fanatic, Hypnotist [23 Wrapped]
+            -  minutes listened this year
+            - day where i listened for the most minutes
+            - number of songs played this year 
+            - top song
+            - top 5 songs
+            - Music evolution
+              - January artists listened to and vibe of listening
+              - June aritst listened to and vibe of listening
+              - August artists listened to and vibe of listening
+            - top artist of the year
+              - time spent listening to their music
+              - longest listening streak (days in a row i guess)
+            - top 5 artists
+            - number of artists listened to 
         - Only list SQL queries used to answer research questions
         - Determine if DFs need data from multiple files 
             - could just use sub-queries or joins to create new DFs with required info
