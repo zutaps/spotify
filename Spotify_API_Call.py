@@ -1,5 +1,9 @@
 import sqlite3 as s3
 
+import os
+
+print(os.path.abspath('z'))
+
 connection = s3.connect('test.db')
 
 cursor = connection.cursor()
