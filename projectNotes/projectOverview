@@ -37,7 +37,7 @@ Things Needed
             - word cloud of my most used words in the top 100 lyrics (excluding stop words)
             - most listened to album
         - ### how would i improve those thing if i could? 
-            - make the animations vary more frequently, not just use geometric patterns 
+            - make the animations more interesting, do not just use geometric patterns 
             - include more personalized stats instead of just comparing me to other listeners
             - make the music evolution more concrete by using genres instead of goobly goop words
             - added the cool stuff from 2023 (listed above)
@@ -51,8 +51,8 @@ Things Needed
         - Turn JSON into relational structure so that it can work with Pandas DataFrames
         - Determine what information is not necessary for analysis and remove
         - Explore the dataframes made from the different files
-    - Queries
-        - What questions do I want to answer? 
+    - ## Queries
+        - ## What questions do I want to answer? 
             - Top Genres, Artist, Songs
             - Time based listening trends
                 - what month did i listen the most?
@@ -81,8 +81,8 @@ Things Needed
               - longest listening streak (days in a row i guess)
             - top 5 artists
             - number of artists listened to 
-        - Only list SQL queries used to answer research questions
-        - Determine if DFs need data from multiple files 
+        - ## Only list SQL queries used to answer research questions
+        - ## Determine if DFs need data from multiple files 
             - could just use sub-queries or joins to create new DFs with required info
     - Understand sentiment Analysis
         - Read NLTK book
@@ -104,6 +104,8 @@ Things Needed
             - any challenges I faced 
             - how to use the scripts together
             - reasoning for usage of NLTK or differnet model, Visualization Methods, and SQLite
+        - SQL Queries File
+            - only list the SQL queries I wrote that showed me the interesting statistics
 
 Reasoning
     - NLTK or other model
