@@ -50,6 +50,7 @@ Things Needed
         - Determine what files I want to use for analysis
         - Turn JSON into relational structure so that it can work with Pandas DataFrames
         - Determine what information is not necessary for analysis and remove
+        - Load data everytime to create the dataframes 
         - Explore the dataframes made from the different files
     - ## Queries
         - ## What questions do I want to answer? 
@@ -88,6 +89,7 @@ Things Needed
         - Read NLTK book
         - determine the NLTK modules 
         - determine feasability of making my own model vs using someone else
+        - use sentiment analysis map (can be found on internet) = make sure to credit them on ReadMe
     - API Call / Data Scraping
         - Genius API call
         - Need another DF that lists my top 100 songs so I can attach lyrics to those songs
