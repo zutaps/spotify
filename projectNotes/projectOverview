@@ -36,7 +36,7 @@ Things Needed
             - for my top 5 artists, a graph that shows my peak listening months [23 Wrapped]
             - word cloud of my most used words in the top 100 lyrics (excluding stop words)
             - most listened to album
-        - ### how would i improve those thing if i could? 
+        - ## how would i improve those thing if i could? 
             - make the animations more interesting, do not just use geometric patterns 
             - include more personalized stats instead of just comparing me to other listeners
             - make the music evolution more concrete by using genres instead of goobly goop words
@@ -47,7 +47,13 @@ Things Needed
             - exp. do things like discover weekly count as playlists?  
     - Data Cleanup and Processing
         - Use Pandas
-        - Determine what files I want to use for analysis
+        - ## Determine what files I want to use for analysis
+            - Spotify Extended Streaming History
+                - Streaming_History_Audio_2023-2025_6.json
+            - Spotify Account Data
+                - SearchQueries.json
+                - YourLibrary.json
+                - Wrappeed2023.json
         - Turn JSON into relational structure so that it can work with Pandas DataFrames
         - Determine what information is not necessary for analysis and remove
         - Load data everytime to create the dataframes 
