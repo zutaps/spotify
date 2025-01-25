@@ -1,0 +1,4 @@
+1.25.25 = Started loading, separating, and cleaning streaming history data. Using jupyterlabs cause it is awesome and easy to use. also, by using display 
+and read_json function and pandasql i am able to run sql queries without needing a separate sql database. Also i learned about datatime package and tomorrow will 
+learn about conditional slicing in pandas. more efficient to do this because it allows me to filter data without having to loop through each row of the dataframe
+and make comparison. 

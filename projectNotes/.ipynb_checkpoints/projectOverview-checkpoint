@@ -1,0 +1,143 @@
+Things Needed
+    - ## Download Data - Complete 
+    - ## Understand the Why behind the project
+        - ## What did I like about 2024 spotify wrapped?
+            - I liked the opening animation
+            - i loved the black background with the bright colorful geometric animation 
+            - I liked a lot of the colors used
+        - ## what didnt i like about 2024 spotify wrapped?
+            - didnt feel personalized
+            - was missing insights from 2023
+            - felt a little too clean/mechanical
+            - the geomoetric patterns became repetive, made it hard to feel special
+            - it didnt report on my podcast listening even tho i listened to podcasts
+            - the music evolution description words were stupid
+        - ## what info was included in 24 spotify wrapped?
+            - minutes listened this year
+            - day where i listened for the most minutes
+            - number of songs played this year 
+            - top song
+            - top 5 songs
+            - Music evolution
+              - January artists listened to and vibe of listening
+              - June aritst listened to and vibe of listening
+              - August artists listened to and vibe of listening
+            - top artist of the year
+              - time spent listening to their music
+              - longest listening streak (days in a row i guess)
+            - top 5 artists
+            - number of artists listened to 
+        - ## what do i wish it reported on?
+            - top 5 generes (a sandwich with most listened to genre taking up most space) [23 Wrapped]
+            - sound town (matching me to a city based on my listening) [23 Wrapped]
+            - me in 2024 (listening character specific to your tastes and habits) [23 Wrapped]
+                - Vampire, Alchemist, Time Traveler, Cyclops, Luminary, Mastermind, Roboticist,
+                  Shapeshifter, Collector, Hunter, Fanatic, Hypnotist [23 Wrapped]
+            - for my top 5 artists, a graph that shows my peak listening months [23 Wrapped]
+            - word cloud of my most used words in the top 100 lyrics (excluding stop words)
+            - most listened to album
+        - ## how would i improve those thing if i could? 
+            - make the animations more interesting, do not just use geometric patterns 
+            - include more personalized stats instead of just comparing me to other listeners
+            - make the music evolution more concrete by using genres instead of goobly goop words
+            - added the cool stuff from 2023 (listed above)
+    - Re-read Data Structure from Spotify Wesbite
+        - Write questions based on data structure
+            - exp. do i know how many times i streamed a playlist?
+            - exp. do things like discover weekly count as playlists?  
+    - Data Cleanup and Processing
+        - ## Use Pandas
+        - ## Determine what files I want to use for analysis
+            - ## Spotify Extended Streaming History
+                - ## Streaming_History_Audio_2023-2025_6.json
+            - Spotify Account Data
+                - SearchQueries.json
+                - YourLibrary.json
+                - Wrappeed2023.json
+        - ## Turn JSON into relational structure so that it can work with Pandas DataFrames
+            - ## Turns out using the pandas read_json function allows it to work with pandas very easily
+        - Determine what information is not necessary for analysis and remove
+        - ## Load data everytime to create the dataframes XXX
+            - ## can write the variable to a CSV file and then just import the CSV !!
+        - Explore the dataframes made from the different files
+    - ## Queries
+        - ## What questions do I want to answer? 
+            - Top Genres, Artist, Songs
+            - Time based listening trends
+                - what month did i listen the most?
+                    - what were the sentiment scores of those songs?
+                - what month did i listen the least?
+                    - what were the sentiment scores of those songs?
+            - Frequency of new artist discovery
+                - how many new artists this year?
+            - Comparison of sentiment scores across my top 50 songs
+            - top 5 generes (a sandwich with most listened to genre taking up most space)
+            - for my top 5 artists, a graph that shows my peak listening months [23 Wrapped]
+            - me in 2024 (listening character specific to your tastes and habits) [23 Wrapped]
+                - Vampire, Alchemist, Time Traveler, Cyclops, Luminary, Mastermind, Roboticist,
+                  Shapeshifter, Collector, Hunter, Fanatic, Hypnotist [23 Wrapped]
+            -  minutes listened this year
+            - day where i listened for the most minutes
+            - number of songs played this year 
+            - top song
+            - top 5 songs
+            - Music evolution
+              - January artists listened to and vibe of listening
+              - June aritst listened to and vibe of listening
+              - August artists listened to and vibe of listening
+            - top artist of the year
+              - time spent listening to their music
+              - longest listening streak (days in a row i guess)
+            - top 5 artists
+            - number of artists listened to 
+        - ## Only list SQL queries used to answer research questions
+        - ## Determine if DFs need data from multiple files 
+            - ## could just use sub-queries or joins to create new DFs with required info
+            - ## can just upload the data into the same CSV and just select from different tables !!
+    - Understand sentiment Analysis
+        - Read NLTK book
+        - determine the NLTK modules 
+        - determine feasability of making my own model vs using someone else
+        - use sentiment analysis map (can be found on internet) = make sure to credit them on ReadMe
+    - API Call / Data Scraping
+        - Genius API call
+        - Need another DF that lists my top 100 songs so I can attach lyrics to those songs
+        - need another DF for month of most and least listening so i can attach lyrics to those songs
+        - need to hide the Client Access Key
+        - what about instrumental songs or songs that dont have lyrics on Genius? 
+    - Visualization
+        - Determine if I want to create graphics like current wrapped (use mary or ben for help)
+        - Use Matplotlib or Plotly for charting interesting statistics or trends
+    - Documentation
+        - ReadMe file
+            - include important insights
+            - project goal
+            - any challenges I faced 
+            - how to use the scripts together
+            - reasoning for usage of NLTK or differnet model, Visualization Methods, and SQLite
+        - SQL Queries File
+            - only list the SQL queries I wrote that showed me the interesting statistics
+
+Reasoning
+    - NLTK or other model
+    - Visualization
+    - ## Decided to use pandas and then use pandasql package to do sql queries
+        - SQLite
+            - Free
+            - Can locally host it
+            - Python Package SQLite3 works with it
+            - Perfect for the size of data I have
+        - ## Pandasql
+
+Stretch Goal
+    - make own model using NLTK and then use for Sentiment Analysis
+    - Create visuals that move / experience is similar to Spotify Wrapped
+    - Make UI so people can upload their own data and do the same
+
+Risks
+    - API calls
+        - limits on Genius API calls 
+            - mitigate by changing how many songs I get lyrics for
+    - NLTK
+        - never made a model before
+        - could take a lot of time / not be a good model cause of data used

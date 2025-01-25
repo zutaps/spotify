@@ -46,17 +46,19 @@ Things Needed
             - exp. do i know how many times i streamed a playlist?
             - exp. do things like discover weekly count as playlists?  
     - Data Cleanup and Processing
-        - Use Pandas
+        - ## Use Pandas
         - ## Determine what files I want to use for analysis
-            - Spotify Extended Streaming History
-                - Streaming_History_Audio_2023-2025_6.json
+            - ## Spotify Extended Streaming History
+                - ## Streaming_History_Audio_2023-2025_6.json
             - Spotify Account Data
                 - SearchQueries.json
                 - YourLibrary.json
                 - Wrappeed2023.json
-        - Turn JSON into relational structure so that it can work with Pandas DataFrames
+        - ## Turn JSON into relational structure so that it can work with Pandas DataFrames
+            - ## Turns out using the pandas read_json function allows it to work with pandas very easily
         - Determine what information is not necessary for analysis and remove
-        - Load data everytime to create the dataframes 
+        - ## Load data everytime to create the dataframes XXX
+            - ## can write the variable to a CSV file and then just import the CSV !!
         - Explore the dataframes made from the different files
     - ## Queries
         - ## What questions do I want to answer? 
@@ -90,7 +92,8 @@ Things Needed
             - number of artists listened to 
         - ## Only list SQL queries used to answer research questions
         - ## Determine if DFs need data from multiple files 
-            - could just use sub-queries or joins to create new DFs with required info
+            - ## could just use sub-queries or joins to create new DFs with required info
+            - ## can just upload the data into the same CSV and just select from different tables !!
     - Understand sentiment Analysis
         - Read NLTK book
         - determine the NLTK modules 
@@ -118,11 +121,13 @@ Things Needed
 Reasoning
     - NLTK or other model
     - Visualization
-    - SQLite
-        - Free
-        - Can locally host it
-        - Python Package SQLite3 works with it
-        - Perfect for the size of data I have
+    - ## Decided to use pandas and then use pandasql package to do sql queries
+        - SQLite
+            - Free
+            - Can locally host it
+            - Python Package SQLite3 works with it
+            - Perfect for the size of data I have
+        - ## Pandasql
 
 Stretch Goal
     - make own model using NLTK and then use for Sentiment Analysis
