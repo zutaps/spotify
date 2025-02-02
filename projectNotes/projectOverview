@@ -41,22 +41,18 @@ Things Needed
             - include more personalized stats instead of just comparing me to other listeners
             - make the music evolution more concrete by using genres instead of goobly goop words
             - added the cool stuff from 2023 (listed above)
-    - Re-read Data Structure from Spotify Wesbite
-        - Write questions based on data structure
-            - exp. do i know how many times i streamed a playlist?
-            - exp. do things like discover weekly count as playlists?  
+    - ## Re-read Data Structure from Spotify Wesbite
     - Data Cleanup and Processing
         - ## Use Pandas
         - ## Determine what files I want to use for analysis
             - ## Spotify Extended Streaming History
                 - ## Streaming_History_Audio_2023-2025_6.json
-            - Spotify Account Data
-                - SearchQueries.json
-                - YourLibrary.json
-                - Wrappeed2023.json
+            - ## Spotify Account Data
+                - ## YourLibrary.json
+                - Wrappeed2023.json  - still figuring out if i want to use this 2/2/25
         - ## Turn JSON into relational structure so that it can work with Pandas DataFrames
             - ## Turns out using the pandas read_json function allows it to work with pandas very easily
-        - Determine what information is not necessary for analysis and remove
+        - ## Determine what information is not necessary for analysis and remove
         - ## Load data everytime to create the dataframes XXX
             - ## can write the variable to a CSV file and then just import the CSV !!
         - Explore the dataframes made from the different files
