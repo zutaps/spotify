@@ -3,5 +3,16 @@ and read_json function and pandasql i am able to run sql queries without needing
 learn about conditional slicing in pandas. more efficient to do this because it allows me to filter data without having to loop through each row of the dataframe
 and make comparison. 
 
-2.2.25 = determined i could use the native pandas .to_datetime function instead of using datetime library. Filtered the dataframes to only include data from 2024. Removed irrelevant data from music and podcast dfs like removed all rows with blank podcast data from podcast df. Renamed a couple of columns to make it easier to reference in the future. Created new folder in Data folder (called Clean_Data) to house all my CSVs of Cleaned Data. Determined I only need my liked songs from YourLibrary.JSON file, so I made a Df of liked songs and then saved it as a csv to Clean_Data folder. Created folder called Cleaning_Scripts and moved my cleaning scripts into it. Created Queries notebook and imported the cleaned data csvs and pandasql so it is all set for exploration. 
+2.2.25 = determined i could use the native pandas .to_datetime function instead of using datetime library. Filtered the dataframes to only include data from 2024. 
+Removed irrelevant data from music and podcast dfs like removed all rows with blank podcast data from podcast df. Renamed a couple of columns to make it easier to
+ reference in the future. Created new folder in Data folder (called Clean_Data) to house all my CSVs of Cleaned Data. Determined I only need my liked songs from 
+ YourLibrary.JSON file, so I made a Df of liked songs and then saved it as a csv to Clean_Data folder. Created folder called Cleaning_Scripts and moved my cleaning
+  scripts into it. Created Queries notebook and imported the cleaned data csvs and pandasql so it is all set for exploration. 
 
+2.12.25 = at work, so not directly working on project but doing some pandas trainings and i have come across a useful pandas method. .describe() is super helpful. 
+For things like int and floats, it will provide the count, mean, 75th percentile, and maximum. For a string it will provide count, unique, top, frequency. This 
+will be super helpful in terms of figuring out what song was listened to most frequently and how many times. .unique() will provide a list of all the unique forms
+of a result. While value_count() will provide a list of unique values and how often they occur in the dataset. This will be helpful for seeing how many one off songs 
+I listened to. Also i should look into the possibility of using .map(), i dont think i will need it but still worth exploring cause it will probably be helpful when 
+I get to lyric analysis. I have also decided, that with the limitations of pandasql I will probably use actual pandas for a lot of the analysis work, but I will use
+pandasql to figure out some simpiler starting statistics. 
