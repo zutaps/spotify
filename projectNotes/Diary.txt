@@ -10,6 +10,12 @@ Removed irrelevant data from music and podcast dfs like removed all rows with bl
   scripts into it. Created Queries notebook and imported the cleaned data csvs and pandasql so it is all set for exploration. 
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+2.16.25 = 
+=======
+>>>>>>> Stashed changes
 =======
 <<<<<<< HEAD
 2.16.25 = 
@@ -22,7 +28,12 @@ of a result. While value_count() will provide a list of unique values and how of
 I listened to. Also i should look into the possibility of using .map(), i dont think i will need it but still worth exploring cause it will probably be helpful when 
 I get to lyric analysis. I have also decided, that with the limitations of pandasql I will probably use actual pandas for a lot of the analysis work, but I will use
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 pandasql to figure out some simpiler starting statistics. 
+=======
+pandasql to figure out some simpiler starting statistics. 
+>>>>>>> 74e5d3f3ddfaaba6b1372717fef9bac580a9c119
+>>>>>>> Stashed changes
 =======
 pandasql to figure out some simpiler starting statistics. 
 >>>>>>> 74e5d3f3ddfaaba6b1372717fef9bac580a9c119
