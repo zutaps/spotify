@@ -5,3 +5,4 @@ and make comparison.
 
 2.2.25 = determined i could use the native pandas .to_datetime function instead of using datetime library. Filtered the dataframes to only include data from 2024. Removed irrelevant data from music and podcast dfs like removed all rows with blank podcast data from podcast df. Renamed a couple of columns to make it easier to reference in the future. Created new folder in Data folder (called Clean_Data) to house all my CSVs of Cleaned Data. Determined I only need my liked songs from YourLibrary.JSON file, so I made a Df of liked songs and then saved it as a csv to Clean_Data folder. Created folder called Cleaning_Scripts and moved my cleaning scripts into it. Created Queries notebook and imported the cleaned data csvs and pandasql so it is all set for exploration. 
 
+2.16.25 = 
